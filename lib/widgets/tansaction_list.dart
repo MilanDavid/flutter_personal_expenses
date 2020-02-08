@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:personal_expenses/widgets/transaction_item.dart';
 import '../models/transaction.dart';
 
@@ -18,7 +17,7 @@ class TransactionList extends StatelessWidget {
                 children: <Widget>[
                   Text(
                     'No Transactions added yet!',
-                    style: Theme.of(context).textTheme.title,
+                    style: Theme.of(context).textTheme.headline1,
                   ),
                   SizedBox(
                     height: 20,
