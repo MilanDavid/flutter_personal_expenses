@@ -41,7 +41,7 @@ class TransactionItem extends StatelessWidget {
         ),
         title: Text(
           transaction.title,
-          style: Theme.of(context).textTheme.headline1,
+          style: Theme.of(context).textTheme.title,
         ),
         subtitle: Text(
           DateFormat.yMMMd().format(transaction.date),

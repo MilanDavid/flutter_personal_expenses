@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
           fontFamily: 'Quicksand',
           errorColor: Colors.red,
           textTheme: ThemeData.light().textTheme.copyWith(
-                headline1: TextStyle(
+                title: TextStyle(
                   fontFamily: 'OpenSans',
                   fontWeight: FontWeight.bold,
                   fontSize: 18,
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
               ),
           appBarTheme: AppBarTheme(
             textTheme: ThemeData.light().textTheme.copyWith(
-                  headline1: TextStyle(
+                  title: TextStyle(
                     fontFamily: 'OpenSans',
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
@@ -121,7 +121,7 @@ class _MyAppState extends State<ExpansePlanner> {
         children: <Widget>[
           Text(
             'Show Chart',
-            style: Theme.of(context).textTheme.headline1,
+            style: Theme.of(context).textTheme.title,
           ),
           Switch.adaptive(
             activeColor: Theme.of(context).accentColor,
